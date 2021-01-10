@@ -1,0 +1,28 @@
+.Nav{
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.NavTitle{
+    margin-right: auto;
+    padding: 10px 0;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.NavLinks{
+    display: flex;
+    align-items: center;
+}
+
+.NavLinks a{
+    color: black;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+

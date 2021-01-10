@@ -1,0 +1,14 @@
+.BookList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.BooksListItem{
+    margin: 15px;
+    flex-basis: calc(100% / 4 - 30px);
+}
+
+.BooksListItem img{
+    width: 100%;
+}

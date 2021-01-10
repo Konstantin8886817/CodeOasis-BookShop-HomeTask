@@ -1,0 +1,33 @@
+.LoginPage{
+    width: 500px;
+    margin: 0 auto;
+}
+.LoginPage h2{
+    margin-bottom: 15px;
+}
+.LoginPage input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.LoginPage div{
+    display: flex;
+}
+
+.LoginPage div button{
+    flex-grow: 1;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.LoginPage div button:first-child{
+    margin-right: 10px;
+}
+
+.LoginPage div button:last-child{
+    margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+.BookView{
+    padding: 10px 0;
+    display: flex;
+}
+
+.BookImg{
+    flex-basis: 20%;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.BookImg img{
+    width: 100%;
+}
+
+.BookContent h2{
+    margin-bottom: 20px;
+}
+
+.Error{
+    color: red;
+}
